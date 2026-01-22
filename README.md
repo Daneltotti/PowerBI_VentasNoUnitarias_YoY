@@ -24,3 +24,48 @@ Se creó una medida DAX personalizada para calcular el porcentaje de ventas no u
         COUNTROWS(Ventas)
     RETURN DIVIDE(CantidadVentasMayor1, CantidadVentas)
 Además, se utilizó la medida rápida de Power BI para calcular la variación interanual (YoY).
+
+---
+
+## 📊 Visualizaciones incluidas
+
+- Tabla comparativa por país con:
+  - % VNU 2024  
+  - % VNU 2025  
+  - Variación interanual YoY  
+- Segmentadores por país y año  
+- Vista general del comportamiento regional  
+
+---
+
+## 📁 Archivos incluidos
+
+- **VentasNoUnitarias_YoY_2024_2025.pbix** → Archivo principal del proyecto  
+- **capturas/** → Carpeta con imágenes del informe  
+
+---
+
+## 📸 Captura del informe
+
+![Tabla comparativa % VNU](capturas/tabla_vnu_yoy.png)
+
+---
+
+## 🧠 Resultados principales
+
+- La proporción global de ventas no unitarias **disminuyó** entre 2024 y 2025.  
+- El país con mayor proporción de ventas no unitarias fue **Ecuador**, con un YoY del **0%**.  
+- El país con mayor caída interanual fue **Colombia**, con un YoY de **-80%**.  
+
+---
+
+## 🧠 Reflexión personal
+
+Este proyecto me permitió aplicar lógica de negocio con DAX, interpretar variaciones interanuales y construir visualizaciones comparativas. Refuerza mi experiencia en análisis de datos aplicados y mi capacidad para comunicar resultados de forma clara.
+
+---
+
+## 📌 Autor
+
+**Arian Danel Bertotto**  
+Junior Data Analyst – Python | SQL | Power BI
