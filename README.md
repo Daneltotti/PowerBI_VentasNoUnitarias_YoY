@@ -45,6 +45,17 @@ Además, se utilizó la medida rápida de Power BI para calcular la variación i
 
 ---
 
+## 📂 Dataset
+
+Archivo simulado con transacciones por país y fecha.  
+Incluye cantidad de unidades por venta para calcular % VNU.
+
+- Columnas: Fecha, País, Cantidad
+- Formato: CSV
+- Ubicación: `/dataset/ventas_simuladas.csv`
+
+---
+
 ## 📸 Captura del informe
 
 ![Tabla comparativa % VNU](capturas/tabla_vnu_yoy.png)
